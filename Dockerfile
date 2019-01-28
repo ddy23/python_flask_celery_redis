@@ -14,6 +14,7 @@ RUN pip install amqp==2.2.2 \
 && pip install redis==2.10.6 \
 && pip install tornado==5.0.2 \
 && pip install vine==1.1.4 \
-&& pip install Werkzeug==0.14.1 \
+&& pip install Werkzeug==0.14.1 
+
 
 RUN pip install gunicorn
