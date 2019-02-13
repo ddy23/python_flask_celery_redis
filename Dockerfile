@@ -15,7 +15,7 @@ RUN pip install amqp==2.2.2 \
 && pip install tornado==5.0.2 \
 && pip install vine==1.1.4 \
 && pip install Werkzeug==0.14.1 \
-&& pip install flask==1.8.1 
+&& pip install flask-appbuilder==1.8.1 
 
 
 RUN pip install gunicorn
